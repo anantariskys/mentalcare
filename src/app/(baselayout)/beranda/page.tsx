@@ -4,8 +4,6 @@ import { FaRegClock, FaRegSmile } from "react-icons/fa";
 export default function Beranda() {
   return (
     <div className="font-sans">
-
-
       {/* Hero */}
       <section className="min-h-[80vh] bg-cover bg-center flex items-center  text-white text-center relative" style={{ backgroundImage: "url('/images/herobg.png')" }}>
         <div className="container">
@@ -34,6 +32,7 @@ export default function Beranda() {
           </div>
         </div>
       </section>
+
       {/* Section 2 */}
       <section className="py-16 ">
         <div className="container mx-auto px-4">
@@ -241,13 +240,13 @@ export default function Beranda() {
             <div className="md:w-2/3">
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <p className="text-gray-700 leading-relaxed">
-                  "Aku dulu nggak sadar kalau aku burnout. Kupikir aku cuma malas, atau terlalu sensitif. Tiap bangun pagi rasanya berat banget. Aku tetap kuliah, tetap ikut organisasi, tapi semuanya seperti... hampa.
+                  &quot;Aku dulu nggak sadar kalau aku burnout. Kupikir aku cuma malas, atau terlalu sensitif. Tiap bangun pagi rasanya berat banget. Aku tetap kuliah, tetap ikut organisasi, tapi semuanya seperti... hampa.
                   <br /><br />
                   Sampai suatu hari aku nangis sendirian di kamar, tanpa alasan yang jelas. Akhirnya aku cerita ke teman, dan dia bilang mungkin aku butuh istirahat—bukan cuma fisik, tapi juga mental.
                   <br /><br />
                   Sekarang aku sedang belajar mengenali batasan diri. Aku mulai journaling, cari bantuan profesional, dan pelan-pelan mengatur ulang hidupku.
                   <br /><br />
-                  Aku belum 'sembuh', tapi aku lebih sadar. Dan itu awal yang baik."
+                  Aku belum &apos;sembuh&apos;, tapi aku lebih sadar. Dan itu awal yang baik.&quot;
                 </p>
               </div>
               <button className="bg-[#B07AB4] hover:bg-[#9A69A0] text-white px-6 py-2 rounded-lg w-full md:w-auto">
